@@ -10,8 +10,8 @@ The **Megatron XL** is a high-voltage electrostatic headphone amplifier designed
 It prioritizes stability, low noise, and long-term reliability while maintaining a transparent and dynamic presentation.
 
 ## Photos
-![Front View](/img/megatron-xl/front.JPG)
-![Internal Layout](/img/megatron-xl/inside.JPG)
+![Front View](/QuartetLab/img/megatron-xl/front.JPG)
+![Internal Layout](/QuartetLab/img/megatron-xl/inside.JPG)
 
 ## Technical Specifications
 - **Topology:** Fully differential electrostatic amplifier
