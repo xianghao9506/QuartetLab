@@ -14,25 +14,25 @@ theme = "PaperMod"
 
   [[menu.main]]
     name = "Home"
-    url = "/QuartetLab/"
+    url = "/"
     weight = 1
 
   [[menu.main]]
     name = "Products"
-    url = "/QuartetLab/products/"
+    url = "/products/"
     weight = 2
 
   [[menu.main]]
     name = "Gallery"
-    url = "/QuartetLab/gallery/"
+    url = "/gallery/"
     weight = 3
 
   [[menu.main]]
     name = "About"
-    url = "/QuartetLab/about/"
+    url = "/about/"
     weight = 5
 
   [[menu.main]]
     name = "Contact"
-    url = "/QuartetLab/contact/"
+    url = "/contact/"
     weight = 6
