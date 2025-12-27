@@ -1,0 +1,15 @@
+---
+title: "Contact"
+---
+
+For pricing, availability, or custom build inquiries, please reach out via email.
+
+📧 **Email:** xianghao9506@gmail.com
+
+To help me respond efficiently, please include:
+- Headphone model
+- Country / region
+- Budget range
+- Customization preferences (if any)
+
+Typical response time: **24–48 hours**.

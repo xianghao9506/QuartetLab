@@ -4,14 +4,19 @@ title: "Quartet Lab"
 
 ## Electrostatic Headphone Amplifiers
 
-我专注于高端静电耳放的 DIY 制作与定制（例如 Megatron XL / Mini T2 等方向），提供成品出售与定制服务。
-
-### 产品与展示
-- 作品照片与简介会持续更新
-- 可按需求定制外观、机箱、供电与用料方案
-
-### 联系方式
-- Email: xianghao9506@126.com
+All amplifiers are designed, assembled, tested, and adjusted **in the United States**.
 
 
-> 下单/咨询请直接联系我（建议附上：耳机型号、所在地、预算与需求）。
+My work covers both **complete builds** and **custom configurations**, including designs inspired by projects such as **Megatron XL** and **Mini T2**.
+
+### Products & Showcase
+- Product photos and technical details are updated regularly
+- Customization available: chassis, power supply, components, and tube options
+
+👉 [View Products](/QuartetLab/products/)
+
+### Contact
+- Email: xianghao9506@gmail.com
+
+
+> For inquiries or orders, please include your headphone model, location, budget range, and any customization requirements.
