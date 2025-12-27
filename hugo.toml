@@ -1,4 +1,6 @@
-baseURL = "https://github.com/xianghao9506/QuartetLab.git"
+baseURL = "https://xianghao9506.github.io/QuartetLab/"
+relativeURLs = true
+canonifyURLs = true
 languageCode = 'en-us'
 title = "Quartet Lab"
 theme = "PaperMod"
