@@ -1,11 +1,10 @@
 baseURL = "https://xianghao9506.github.io/QuartetLab/"
-relativeURLs = true
-canonifyURLs = true
 languageCode = 'en-us'
 title = "Quartet Lab"
 theme = "PaperMod"
 
 [params]
+    env = "production"
     description = "DIY Electrostatic Headphone Amplifiers"
     ShowReadingTime = false
     ShowShareButtons = false
