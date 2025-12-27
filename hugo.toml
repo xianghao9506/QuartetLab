@@ -1,0 +1,10 @@
+baseURL = "https://github.com/xianghao9506/QuartetLab.git"
+languageCode = 'en-us'
+title = "Quartet Lab"
+theme = "PaperMod"
+
+[params]
+    description = "DIY Electrostatic Headphone Amplifiers"
+    ShowReadingTime = false
+    ShowShareButtons = false
+    defaultTheme = "auto"
