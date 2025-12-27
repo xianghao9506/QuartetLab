@@ -9,3 +9,30 @@ theme = "PaperMod"
     ShowReadingTime = false
     ShowShareButtons = false
     defaultTheme = "auto"
+
+[menu]
+
+  [[menu.main]]
+    name = "Home"
+    url = "/QuartetLab/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Products"
+    url = "/QuartetLab/products/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Gallery"
+    url = "/QuartetLab/gallery/"
+    weight = 3
+
+  [[menu.main]]
+    name = "About"
+    url = "/QuartetLab/about/"
+    weight = 5
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/QuartetLab/contact/"
+    weight = 6

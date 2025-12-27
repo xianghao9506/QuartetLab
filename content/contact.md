@@ -13,3 +13,5 @@ To help me respond efficiently, please include:
 - Customization preferences (if any)
 
 Typical response time: **24–48 hours**.
+
+> High-voltage equipment. For experienced users only.
