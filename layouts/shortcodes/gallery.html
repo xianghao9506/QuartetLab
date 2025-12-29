@@ -1,8 +1,122 @@
-<div class="gallery">
+{{- $id := printf "qlc-%d" .Ordinal -}}
+{{- $interval := .Get "interval" | default "3500" -}} <!-- ms -->
+{{- $autoplay := .Get "autoplay" | default "true" -}}
+
+<div class="qlc" id="{{ $id }}" data-interval="{{ $interval }}" data-autoplay="{{ $autoplay }}">
+  <button class="qlc__btn qlc__btn--prev" type="button" aria-label="Previous">‹</button>
+
+  <div class="qlc__viewport" aria-label="Gallery carousel">
     {{ range sort (.Page.Resources.Match "*.{jpg,JPG,jpeg,JPEG,png,PNG,webp,WEBP}") "Name" }}
-      <figure class="gallery-item">
-        <img src="{{ .RelPermalink }}" loading="lazy" />
-      </figure>
+      <a class="qlc__item" href="{{ .RelPermalink }}" data-qlc-lightbox>
+        <img src="{{ .RelPermalink }}" alt="{{ .Name }}" loading="lazy" />
+      </a>
     {{ end }}
   </div>
-  
+
+  <button class="qlc__btn qlc__btn--next" type="button" aria-label="Next">›</button>
+
+  <!-- Lightbox -->
+  <div class="qlc__lightbox" hidden>
+    <button class="qlc__close" type="button" aria-label="Close">×</button>
+    <img class="qlc__lightboximg" alt="Expanded view" />
+  </div>
+</div>
+
+<script>
+(() => {
+  const root = document.getElementById("{{ $id }}");
+  if (!root) return;
+
+  const viewport = root.querySelector(".qlc__viewport");
+  const prevBtn = root.querySelector(".qlc__btn--prev");
+  const nextBtn = root.querySelector(".qlc__btn--next");
+
+  // Lightbox
+  const lb = root.querySelector(".qlc__lightbox");
+  const lbImg = root.querySelector(".qlc__lightboximg");
+  const lbClose = root.querySelector(".qlc__close");
+
+  const intervalMs = Number(root.dataset.interval || 3500);
+  const autoplay = (root.dataset.autoplay || "true") === "true";
+
+  let timer = null;
+  let isPaused = false;
+
+  const step = () => Math.max(260, Math.floor(viewport.clientWidth * 0.85));
+
+  const atEnd = () =>
+    Math.ceil(viewport.scrollLeft + viewport.clientWidth) >= viewport.scrollWidth;
+
+  const scrollNext = () => {
+    if (atEnd()) {
+      viewport.scrollTo({ left: 0, behavior: "smooth" });
+    } else {
+      viewport.scrollBy({ left: step(), behavior: "smooth" });
+    }
+  };
+
+  const scrollPrev = () => {
+    if (viewport.scrollLeft <= 0) {
+      viewport.scrollTo({ left: viewport.scrollWidth, behavior: "smooth" });
+    } else {
+      viewport.scrollBy({ left: -step(), behavior: "smooth" });
+    }
+  };
+
+  const start = () => {
+    if (!autoplay) return;
+    stop();
+    timer = setInterval(() => {
+      if (!isPaused && (lb?.hidden ?? true)) scrollNext();
+    }, Math.max(1200, intervalMs));
+  };
+
+  const stop = () => {
+    if (timer) clearInterval(timer);
+    timer = null;
+  };
+
+  // Pause on hover / focus
+  const pause = () => { isPaused = true; };
+  const resume = () => { isPaused = false; };
+
+  viewport.addEventListener("mouseenter", pause);
+  viewport.addEventListener("mouseleave", resume);
+  viewport.addEventListener("focusin", pause);
+  viewport.addEventListener("focusout", resume);
+
+  prevBtn.addEventListener("click", () => { scrollPrev(); });
+  nextBtn.addEventListener("click", () => { scrollNext(); });
+
+  // Lightbox open/close
+  const openLB = (src) => {
+    lbImg.src = src;
+    lb.hidden = false;
+    document.documentElement.classList.add("qlc-noscroll");
+    pause();
+  };
+  const closeLB = () => {
+    lb.hidden = true;
+    lbImg.src = "";
+    document.documentElement.classList.remove("qlc-noscroll");
+    resume();
+  };
+
+  root.addEventListener("click", (e) => {
+    const a = e.target.closest("[data-qlc-lightbox]");
+    if (a) {
+      e.preventDefault();
+      openLB(a.getAttribute("href"));
+      return;
+    }
+    if (e.target === lb || e.target === lbClose) closeLB();
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (!lb.hidden && e.key === "Escape") closeLB();
+  });
+
+  // Start autoplay
+  start();
+})();
+</script>
