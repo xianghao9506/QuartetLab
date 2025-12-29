@@ -4,8 +4,8 @@ date: 2025-12-27
 draft: false
 ---
 
-![Front View](/QuartetLab/img/megatron-xl/front.JPG)
-![Front View2](/QuartetLab/img/megatron-xl/DSC00031.JPG)
+![Front View](/img/megatron-xl/front.JPG)
+![Front View2](/img/megatron-xl/DSC00031.JPG)
 
 ## Overview
 The **Megatron XL** is a fully tube-based, two-chassis electrostatic headphone amplifier developed by **Kevin Gilmore** as an evolution of the original Megatron design.
