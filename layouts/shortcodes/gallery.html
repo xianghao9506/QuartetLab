@@ -1,0 +1,8 @@
+<div class="gallery">
+    {{ range sort (.Page.Resources.Match "*.{jpg,JPG,jpeg,JPEG,png,PNG,webp,WEBP}") "Name" }}
+      <figure class="gallery-item">
+        <img src="{{ .RelPermalink }}" loading="lazy" />
+      </figure>
+    {{ end }}
+  </div>
+  
