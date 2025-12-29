@@ -47,9 +47,9 @@ These measures significantly extend the lifespan of the amplifier, tubes, and co
 The internal 300B filament supply includes a selectable configuration, **allowing future replacement of the 300B with 2A3 tubes**, providing an upgrade path without major hardware changes.
 
 ## Photos
-![Front View](/QuartetLab/img/megatron-xl/front.JPG)
-![Internal Layout](/QuartetLab/img/megatron-xl/inside.JPG)
-![Tube](/QuartetLab/img/megatron-xl/DSC00037.JPG)
+![Front View](/img/megatron-xl/front.JPG)
+![Internal Layout](/img/megatron-xl/inside.JPG)
+![Tube](/img/megatron-xl/DSC00037.JPG)
 
 ## Technical Specifications
 - Fully tube-based dual-chassis electrostatic headphone amplifier
