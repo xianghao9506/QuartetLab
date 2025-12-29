@@ -1,11 +1,12 @@
 baseURL = "https://quartetlabamp.com/"
 languageCode = 'en-us'
-title = "Quartet Lab"
+title = "Quartet Lab – Custom Electrostatic Headphone Amplifiers"
 theme = "PaperMod"
+enableRobotsTXT = true
 
 [params]
     env = "production"
-    description = "DIY Electrostatic Headphone Amplifiers"
+    description = "Custom-built electrostatic headphone amplifiers including Megatron XL, KGSSHV Carbon, Grounded Grid, and KGST. Designed, assembled, and tested in the USA."
     ShowReadingTime = false
     ShowShareButtons = false
     defaultTheme = "auto"
