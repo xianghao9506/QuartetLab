@@ -3,8 +3,11 @@ title: "Megatron XL"
 description: "Megatron XL is a fully tube-based electrostatic headphone amplifier featuring 300B output tubes, built and tested in the USA."
 date: 2025-12-27
 draft: false
-images:
-    - "/img/products/MegatronXL.JPG"
+cover:
+    image: "/img/products/MegatronXL.JPG"
+    alt: "Megatron XL electrostatic headphone amplifier"
+    relative: false
+    hiddenInList: false
 ---
 
 ![Megatron XL front view – electrostatic headphone amplifier](/img/megatron-xl/front.JPG)

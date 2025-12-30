@@ -10,7 +10,9 @@ enableRobotsTXT = true
     ShowReadingTime = false
     ShowShareButtons = false
     defaultTheme = "auto"
-    customCSS = ["css/custom.css"]
+    showPostCover = true
+    coverHiddenInList = false
+
 
 [menu]
 
