@@ -20,7 +20,7 @@ A defining feature of the Grounded Grid topology is that the **control grids of 
 This design choice provides several important advantages:
 
 - **Absolute DC reference stability**  
-  By tying the grid to ground, the tube’s operating point is referenced to a fixed and noise-free potential, eliminating long-term drift caused by floating grid bias networks.
+  The tube’s operating point is referenced to a fixed and noise-free potential, eliminating long-term drift caused by floating grid bias networks.
 
 - **Reduced susceptibility to offset and noise**  
   A grounded grid greatly reduces sensitivity to leakage currents, grid bias variation, and power-supply-related disturbances, resulting in lower output offset and improved channel stability.
@@ -29,7 +29,6 @@ This design choice provides several important advantages:
   With the grid held at ground potential, tube behavior becomes more repeatable and consistent across tube samples, which is especially important when using beam tetrodes such as EL34 / 6CA7.
 
 The Grounded Grid uses **four EL34 / 6CA7 output tubes**, making tube rolling both **easy and accessible**.  
-Users can fine-tune tonal balance and presentation by selecting different EL34 variants without requiring circuit changes.
 
 Similar to the **T2 and DIY T2 architectures**, the output tube plates in the GG are **loaded by constant current sources (CCS)**.  
 This approach provides major technical benefits:
