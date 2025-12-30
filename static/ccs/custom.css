@@ -1,11 +1,10 @@
 /* Reduce thumbnail size on Products list page only */
 .section-products .post-entry .entry-cover img {
-    max-height: 180px;     /* 缩略图高度，可调 */
+    max-height: 160px;   /* 你可以调成 140 / 180 */
     width: auto;
     object-fit: contain;
   }
   
-  /* Optional: reduce spacing so layout looks tighter */
   .section-products .post-entry {
     gap: 1rem;
   }
