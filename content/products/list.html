@@ -1,0 +1,74 @@
+{{- define "main" -}}
+<main class="main">
+  <header class="page-header">
+    <h1>{{ .Title }}</h1>
+  </header>
+
+  {{- if .Content -}}
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+  {{- end -}}
+
+  {{- $pages := .Pages.ByWeight -}}
+  {{- if eq (len $pages) 0 -}}
+    <p>No products found.</p>
+  {{- else -}}
+    <table width="100%" cellpadding="0" cellspacing="0">
+      {{- range $pages -}}
+        <tr>
+          <!-- left: image -->
+          <td width="260" valign="top" style="padding: 12px 16px 12px 0;">
+            {{- $img := "" -}}
+            {{- with .Params.cover -}}
+              {{- with .image -}}
+                {{- $img = . -}}
+              {{- end -}}
+            {{- end -}}
+
+            {{- if $img -}}
+              <a href="{{ .RelPermalink }}">
+                <img src="{{ $img }}" alt="{{ .Title }}" width="240">
+              </a>
+            {{- else -}}
+              <a href="{{ .RelPermalink }}">
+                <div style="width:240px;height:160px;border:1px solid #ddd;display:flex;align-items:center;justify-content:center;">
+                  <span>View</span>
+                </div>
+              </a>
+            {{- end -}}
+          </td>
+
+          <!-- right: text -->
+          <td valign="top" style="padding: 12px 0;">
+            <h2 style="margin: 0 0 6px 0;">
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h2>
+
+            {{- $desc := "" -}}
+            {{- with .Params.description -}}
+              {{- $desc = . -}}
+            {{- else -}}
+              {{- with .Summary -}}
+                {{- $desc = . -}}
+              {{- end -}}
+            {{- end -}}
+
+            {{- if $desc -}}
+              <p style="margin: 0 0 10px 0;">{{ $desc | plainify }}</p>
+            {{- end -}}
+
+            <p style="margin: 0;">
+              <a href="{{ .RelPermalink }}">View details →</a>
+            </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2" style="border-bottom: 1px solid #eee;"></td>
+        </tr>
+      {{- end -}}
+    </table>
+  {{- end -}}
+</main>
+{{- end -}}
