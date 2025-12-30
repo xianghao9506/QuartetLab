@@ -2,8 +2,8 @@
 title: "Grounded Grid"
 description: "Grounded Grid is a high-performance electrostatic headphone amplifier design by Kevin Gilmore, built and tested in the USA."
 cover:
-    image: "/img/products/Grounded-grid.JPG"
-    alt: "Megatron XL electrostatic headphone amplifier"
+    image: "/img/products/Grounded-grid.jpg"
+    alt: "Grounded Grid electrostatic headphone amplifier"
     relative: false
     hiddenInList: false
 ---
