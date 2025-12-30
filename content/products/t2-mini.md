@@ -1,6 +1,11 @@
 ---
 title: "T2 Mini"
 description: "T2 Mini is a compact all-tube electrostatic headphone amplifier inspired by the classic T2 architecture, built and tested in the USA."
+cover:
+    image: "/img/products/T2-Mini.JPG"
+    alt: "Megatron XL electrostatic headphone amplifier"
+    relative: false
+    hiddenInList: false
 ---
 
 ## Overview
