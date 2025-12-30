@@ -2,6 +2,8 @@
 title: "Quartet Lab"
 ---
 
+![Megatron XL tube – electrostatic headphone amplifier](/img/megatron-xl/DSC00037.JPG)
+
 ## Electrostatic Headphone Amplifiers
 
 👉 [View Products](/products/)
