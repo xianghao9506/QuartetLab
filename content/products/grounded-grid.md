@@ -8,8 +8,8 @@ cover:
     hiddenInList: false
 ---
 
-![Grounded Grid front view – electrostatic headphone amplifier](/img/grounded-grid/front.JPG)
-![Grounded Grid front view 2 – electrostatic headphone amplifier](/img/grounded-grid/front2.JPG)
+![Grounded Grid front view – electrostatic headphone amplifier](/img/grounded-grid/Grid1.JPG)
+![Grounded Grid front view 2 – electrostatic headphone amplifier](/img/grounded-grid/Grid2.JPG)
 
 ## Overview
 
