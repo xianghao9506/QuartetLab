@@ -4,7 +4,7 @@ title: "Quartet Lab"
 
 ## Electrostatic Headphone Amplifiers
 
-👉 [View Products](/QuartetLab/products/)
+👉 [View Products](/products/)
 
 ### Currently Available Builds
 
