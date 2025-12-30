@@ -1,1 +1,38 @@
-body { outline: 6px solid red !important; }
+/* Stacked centered header: title on first line, menu on second line */
+.header {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  
+  .nav {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+  
+  /* Site title centered */
+  .logo, .logo a {
+    margin: 0 !important;
+    text-align: center !important;
+    justify-content: center !important;
+    padding: 0.6rem 0 0.2rem !important;
+  }
+  
+  /* Menu row centered */
+  .menu {
+    justify-content: center !important;
+    width: 100% !important;
+  }
+  
+  .menu li {
+    margin: 0 0.75rem !important;
+  }
+  
+  @media (max-width: 768px) {
+    .menu {
+      flex-wrap: wrap !important;
+      row-gap: 0.5rem !important;
+    }
+  }
+  
