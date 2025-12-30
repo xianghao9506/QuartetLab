@@ -1,4 +1,4 @@
-/* Center site title and navigation in PaperMod header */
+/* Stack header: title on first line, menu on second line, both centered */
 .header {
     display: flex;
     justify-content: center;
@@ -6,28 +6,36 @@
   
   .header-inner {
     display: flex;
-    justify-content: center;
-    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
   }
   
-  /* Center site title */
+  /* Site title centered */
   .logo {
-    margin-right: 0 !important;
+    margin: 0 !important;
+    padding: 0.5rem 0;
     text-align: center;
   }
   
-  /* Center menu items */
+  /* Navigation centered on its own row */
   .menu {
+    display: flex;
     justify-content: center;
+    width: 100%;
+    padding-top: 0.25rem;
   }
   
-  /* Optional: keep spacing consistent on small screens */
+  /* Space between menu items */
+  .menu li {
+    margin: 0 0.75rem;
+  }
+  
+  /* Mobile: keep everything centered and stacked */
   @media (max-width: 768px) {
-    .header-inner {
-      flex-direction: column;
-      align-items: center;
-      gap: 0.75rem;
+    .menu {
+      flex-wrap: wrap;
+      row-gap: 0.5rem;
     }
   }
   
