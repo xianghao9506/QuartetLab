@@ -1,6 +1,6 @@
 ---
 title: "Grounded Grid"
-description: "Grounded Grid is a high-performance electrostatic headphone amplifier design by Kevin Gilmore, built and tested in the USA."
+description: "The Grounded Grid (GG) is a hybrid electrostatic headphone amplifier designed by Kevin Gilmore, combining solid-state precision with a tube-based output stage for stability, linearity, and long-term reliability."
 cover:
     image: "/img/products/Grounded-grid.jpg"
     alt: "Grounded Grid electrostatic headphone amplifier"
@@ -8,53 +8,60 @@ cover:
     hiddenInList: false
 ---
 
+![Grounded Grid front view – electrostatic headphone amplifier](/img/grounded-grid/front.JPG)
+![Grounded Grid front view 2 – electrostatic headphone amplifier](/img/grounded-grid/front2.JPG)
+
 ## Overview
 
-**Grounded Grid** is a high-performance electrostatic headphone amplifier design by **Kevin Gilmore**. It is known for its clean, controlled presentation and excellent drive capability for modern electrostatic headphones.
+The **Grounded Grid (GG)** is a **hybrid electrostatic headphone amplifier** designed by **Kevin Gilmore**, combining a solid-state front end with a tube-based output stage.  
+It is widely regarded as one of the most **stable, reliable, and technically elegant** electrostatic amplifier designs, offering excellent performance while remaining practical for long-term daily use.
 
-Quartet Lab offers custom Grounded Grid builds with an emphasis on electrical safety, consistent operating points, and reliable long-term operation.
+A defining feature of the Grounded Grid topology is that the **control grids of the output tubes are directly referenced to ground**.  
+This design choice provides several important advantages:
 
-All units are **assembled, tested, and verified in the United States**.
+- **Absolute DC reference stability**  
+  By tying the grid to ground, the tube’s operating point is referenced to a fixed and noise-free potential, eliminating long-term drift caused by floating grid bias networks.
 
----
+- **Reduced susceptibility to offset and noise**  
+  A grounded grid greatly reduces sensitivity to leakage currents, grid bias variation, and power-supply-related disturbances, resulting in lower output offset and improved channel stability.
 
-## Design Highlights
+- **Improved linearity and predictability**  
+  With the grid held at ground potential, tube behavior becomes more repeatable and consistent across tube samples, which is especially important when using beam tetrodes such as EL34 / 6CA7.
 
-- Electrostatic headphone amplifier design by Kevin Gilmore
-- Built for stability, low noise, and long-term reliability
-- Internal layout and wiring optimized for clean signal routing and serviceability
+The Grounded Grid uses **four EL34 / 6CA7 output tubes**, making tube rolling both **easy and accessible**.  
+Users can fine-tune tonal balance and presentation by selecting different EL34 variants without requiring circuit changes.
 
----
+Similar to the **T2 and DIY T2 architectures**, the output tube plates in the GG are **loaded by constant current sources (CCS)**.  
+This approach provides major technical benefits:
 
-## Output
+- Significantly increased voltage swing capability  
+- A much wider and more linear operating region for the tubes  
+- Improved distortion performance under real headphone loads  
 
-- **Stax Pro Bias (580V)**
-- Optional configuration may be available depending on build requirements
+In addition, the GG employs a **switchable DC servo–based offset balance system**, ensuring that both channels remain centered at optimal operating points over time.  
+This servo can be enabled or disabled, allowing users to choose between **absolute long-term stability** or a fully passive signal path.
 
----
+Overall, the Grounded Grid represents a carefully balanced design—**combining tube character, solid-state precision, and long-term reliability**—making it an excellent choice for users seeking a reference-level electrostatic amplifier without the complexity of larger all-tube designs.
 
-## Build Time
-
-Typical build lead time is approximately **3 months**, depending on parts availability and customization requirements.
-
----
+## Technical Specifications
+- Hybrid solid-state and tube electrostatic headphone amplifier  
+- Tube complement: **4 × EL34 / 6CA7**
+- Output: **Stax Pro Bias (580V)**
+- Constant current source (CCS) plate loading for output tubes
+- Grounded grid topology for improved stability and linearity
+- Switchable DC servo offset balance system
 
 ## Customization Options
-
-- Tube selection (subject to availability)
-- Regional mains voltage tuning (US / EU / UK / etc.)
-- Volume potentiometer options (subject to availability)
-- Chassis and cosmetic options (subject to feasibility)
-
----
+- Chassis finish: **Matte Black** or **Matte Silver**
 
 ## What’s Included
-
-- Amplifier unit (and power supply if applicable to your configuration)
-- Required interconnect/power cables for the chosen chassis format
+- Amplifier chassis and external power supply
+- Aviation-grade power connection cables
 - Tube set (configuration dependent)
 
----
+## Pricing & Lead Time
+- **Price:** $3,499 + shipping
+- **Lead Time:** Typically **1–2 months** after confirmation
 
 ## Contact
 
