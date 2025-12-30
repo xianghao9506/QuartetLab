@@ -15,9 +15,16 @@
             {{ end }}
           </td>
         </tr>
+  
         <tr>
           <td align="center" style="padding: 6px 0 10px 0;">
-            {{- partial "menu.html" . -}}
+            {{ with .Site.Menus.main }}
+              {{ range . }}
+                <a href="{{ .URL }}" style="text-decoration:none; margin: 0 10px;">
+                  {{ .Name }}
+                </a>
+              {{ end }}
+            {{ end }}
           </td>
         </tr>
       </table>
