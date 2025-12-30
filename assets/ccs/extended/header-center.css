@@ -1,4 +1,7 @@
 /* Stack header: title on first line, menu on second line, both centered */
+
+body { outline: 6px solid red !important; }
+
 .header {
     display: flex;
     justify-content: center;
