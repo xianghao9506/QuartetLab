@@ -4,8 +4,6 @@ description: "High-temperature, precision-made Stax Pro Bias and Normal Bias soc
 draft: false
 ---
 
-![Megatron XL front view – electrostatic headphone amplifier](/img/megatron-xl/front.JPG)
-
 ## Overview
 
 Quartet Lab currently offers **two types of Stax-compatible headphone sockets**, designed for use in DIY and custom-built electrostatic headphone amplifiers.
@@ -45,6 +43,8 @@ The contact pins feature a **modular, removable design**, allowing for:
 ---
 
 ## Mounting Dimensions (DIY Drilling Guide)
+
+![Stax socket jack 3D view – electrostatic headphone amplifier](/img/Stax-sockets/socket-3d.png)
 
 To assist DIY builders with chassis preparation, both socket types use the **same mounting dimensions**.
 
