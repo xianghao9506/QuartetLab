@@ -4,6 +4,8 @@ description: "High-temperature, precision-made Stax Pro Bias and Normal Bias soc
 draft: false
 ---
 
+![Megatron XL front view – electrostatic headphone amplifier](/img/megatron-xl/front.JPG)
+
 ## Overview
 
 Quartet Lab currently offers **two types of Stax-compatible headphone sockets**, designed for use in DIY and custom-built electrostatic headphone amplifiers.
@@ -39,6 +41,27 @@ The contact pins feature a **modular, removable design**, allowing for:
 - Easier installation inside compact chassis
 - Convenient soldering and wiring
 - Simplified maintenance or replacement if needed
+
+---
+
+## Mounting Dimensions (DIY Drilling Guide)
+
+To assist DIY builders with chassis preparation, both socket types use the **same mounting dimensions**.
+
+### Standard Through-Hole Mounting
+- **Recommended panel hole diameter:** **20 mm**
+- **Maximum allowable hole diameter:** **22 mm**
+
+This configuration is suitable for most flat-panel installations.
+
+### Countersunk / Recessed Mounting (Recommended)
+For a cleaner front-panel appearance, a countersunk design may be used with the following dimensions:
+
+- **Recess depth:** **3.5 mm**
+- **Lower hole diameter (socket body):** **19 mm**
+- **Upper hole diameter (countersink):** **23–24 mm**
+
+This stepped-hole approach ensures proper seating, mechanical stability, and consistent alignment.
 
 ---
 
