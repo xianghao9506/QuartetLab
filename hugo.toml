@@ -27,9 +27,14 @@ enableRobotsTXT = true
     weight = 2
 
   [[menu.main]]
+    name = "Stax Sockets / Jack"
+    url = "/stax-sockets/"
+    weight = 3
+
+  [[menu.main]]
     name = "Gallery"
     url = "/gallery/"
-    weight = 3
+    weight = 4
 
   [[menu.main]]
     name = "About"
