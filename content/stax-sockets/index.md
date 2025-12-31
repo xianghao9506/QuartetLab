@@ -14,6 +14,9 @@ Both sockets are engineered with a focus on **thermal stability, mechanical stre
 
 ## Available Models
 
+![Stax socket jack front view– electrostatic headphone amplifier](/img/Stax-sockets/front.JPG)
+![Stax socket jack front combo– electrostatic headphone amplifier](/img/Stax-sockets/combo.JPG)
+
 ### Stax Pro Bias Socket (5-pin)
 - Standard **Stax Pro Bias (580V)** configuration  
 - **5-pin layout**
