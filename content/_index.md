@@ -32,7 +32,7 @@ Each build can be discussed and configured based on availability and specific re
 
 ### About Quartet Lab
 
-Quartet Lab is a small, independent workshop focused on **DIY electrostatic headphone amplifiers**.
+Quartet Lab is a small, independent workshop based in the United States, focused on **DIY electrostatic headphone amplifiers**.
 
 I began building electrostatic amplifiers around **2013**, initially to support fellow enthusiasts who were looking for reliable, carefully built solutions based on well-known designs such as **Megatron, T2, KGSSHV Carbon, Grounded Grid, and KGST**.
 
