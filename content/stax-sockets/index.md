@@ -79,6 +79,7 @@ This stepped-hole approach ensures proper seating, mechanical stability, and con
 
 ## Ordering Information
 
-📧 **Email:** xianghao9506@gmail.com  
+📧 **Email:** xianghao9506@gmail.com Shawn
+
 
 ---
