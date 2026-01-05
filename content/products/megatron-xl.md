@@ -1,6 +1,6 @@
 ---
 title: "Megatron XL"
-description: "The Megatron XL is a fully tube-based, two-chassis electrostatic headphone amplifier developed by Kevin Gilmore as an evolution of the original Megatron design."
+description: "The Megatron XL is a fully tube-based, two-chassis electrostatic headphone amplifier using 300B output tubes, developed by Kevin Gilmore as an evolution of the original Megatron design."
 date: 2025-12-27
 draft: false
 cover:
@@ -30,7 +30,7 @@ The complete amplifier uses **a total of twelve vacuum tubes**:
 
 This architecture provides substantial flexibility for **tube rolling**, allowing users to fine-tune the sound character to their preference.
 
-## Power Supply & Protection Design
+## Megatron XL Power Supply & Protection Design
 
 The Megatron XL features a carefully engineered power supply system designed for long-term reliability and component protection.
 
@@ -57,7 +57,7 @@ The internal 300B filament supply includes a selectable configuration, **allowin
 ![Megatron XL front back – electrostatic headphone amplifier](/img/megatron-xl/inside.JPG)
 ![Megatron XL tube – electrostatic headphone amplifier](/img/megatron-xl/DSC00037.JPG)
 
-## Technical Specifications
+## Megatron XL Technical Specifications
 - Fully tube-based dual-chassis electrostatic headphone amplifier
 - Tube complement: 2 × ECC82, 2 × ECC83, 4 × EL34 / 6CA7, 4 × 300B
 - Output: Stax Pro Bias (580V) + Optional Normal Bias output
